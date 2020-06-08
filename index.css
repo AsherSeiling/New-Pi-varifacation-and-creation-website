@@ -1,3 +1,8 @@
+/* © 2020 Asher Seiling */
+
+:root{
+    --margins-pi-out: 450pt;
+}
 
 *{
     margin: 0;
@@ -18,4 +23,10 @@ p{
 
 .nav_text{
     margin-left: 20pt;
+}
+
+.output_box{
+    background-color: rgba(116, 116, 116, 0.418);
+    margin-left: var(--margins-pi-out);
+    margin-right: var(--margins-pi-out);
 }

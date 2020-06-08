@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- © 2020 Asher Seiling -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New pi converter</title>
@@ -19,6 +20,27 @@
             </p>
         </div>
         <br>
+    </div>
+    <div class="body">
+        <center>
+            <br>
+            <br>
+            <p>
+                Input old PI version you want to convert
+            </p>
+            <input type="number" placeholder="Input Old PI version"  style="margin-top: 20pt;">
+            <br>
+            <br>
+            <button style="border-color: black; border-radius: 3pt;" onclick="convert_new_pi_to_old_pi();">Convert</button>
+            <br>
+            <br>
+            <p style="margin-bottom: 20pt;">New pi Is equal to</p>
+            <div class="output_box">
+                <br>
+                <p id="new_pi_out"></p>
+                <br>
+            </div>
+        </center>
     </div>
 </body>
 </html>
